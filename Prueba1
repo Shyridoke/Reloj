@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selector de Hora</title>
+</head>
+<body>
+    <h1>Selecciona una hora</h1>
+    <input type="time" id="hora">
+    <button onclick="seleccionarHora()">Seleccionar</button>
+
+    <script>
+        function seleccionarHora() {
+            const hora = document.getElementById('hora').value;
+            alert("Hora seleccionada: " + hora);
+        }
+    </script>
+</body>
+</html>
